@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE products [
+<!ELEMENT products (product)*>
+<!ELEMENT product (name , price)>
+<!ATTLIST product id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<products>   
+<product id="P04"><name>PRODUCT4</name><price>505</price></product><product id="P01"><name>PRODUCT01</name><price>345</price></product><product id="P05"><name>PRODUCT05</name><price>4520</price></product></products>
